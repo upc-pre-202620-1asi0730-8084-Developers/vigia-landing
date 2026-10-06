@@ -257,6 +257,8 @@ ul, ol { list-style: none; }
 .form-status { margin-top: var(--sp-2); font-size: 13px; }
 .form-status.ok { color: var(--color-success); }
 .form-status.err { color: var(--color-error); }
+.video-status { margin: var(--sp-2) 0 0; font-size: 13px; font-weight: 600; color: var(--color-primary-2); text-align: center; }
+.video-block .video-status { text-align: left; }
 .demo-tagline { text-align: right; font-weight: 800; font-size: 13px; letter-spacing: .5px; color: var(--color-primary); padding: 0 var(--sp-5) var(--sp-4); line-height: 1.3; }
 
 /* =========================================================
