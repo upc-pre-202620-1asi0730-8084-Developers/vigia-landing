@@ -223,7 +223,8 @@ ul, ol { list-style: none; }
 .section-strip .right { margin-left: auto; }
 
 .play-btn { width: 48px; height: 48px; border-radius: 50%; background: var(--color-surface); box-shadow: var(--shadow-2); color: var(--color-primary); font-size: 18px; display: inline-flex; align-items: center; justify-content: center; }
-
+.video-status { margin: var(--sp-2) 0 0; font-size: 13px; font-weight: 600; color: var(--color-primary-2); text-align: center; }
+.video-block .video-status { text-align: left; }
 /* =========================================================
    PLANS
    ========================================================= */
