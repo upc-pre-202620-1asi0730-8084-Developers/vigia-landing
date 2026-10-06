@@ -22,14 +22,13 @@ window.VIGIA_I18N = {
     'nav.how': 'How it works',
     'nav.benefits': 'Benefits',
     'nav.plans': 'Plans',
-    'nav.demo': 'Demo',
     'nav.team': 'Team',
     'nav.contact': 'Contact',
 
     'hero.eyebrow': 'PLATFORM FOR CONSTRUCTION COMPANIES<br />AND LOGISTICS OPERATIONS IN PERU',
     'hero.title': '<span class="ink">Control your materials</span> <span class="accent">from the warehouse to the site</span>',
     'hero.desc': 'Vigía brings together dispatches, transport, receptions and material comparison to detect shortages, differences and delays in time.',
-    'hero.requestDemo': 'Request a demo <span class="arrow">→</span>',
+    'hero.goToApp': 'Go to the platform <span class="arrow">→</span>',
     'hero.seePlans': 'See plans',
     'hero.highlight1': 'More control<br /><small>over your projects</small>',
     'hero.highlight2': 'Fewer losses<br /><small>of materials</small>',
@@ -116,29 +115,6 @@ window.VIGIA_I18N = {
     'benefits.b6Desc': 'Manage all your projects from one platform, with a global real-time view.',
     'benefits.strip': 'MORE OPERATIONAL CONTROL. LESS UNCERTAINTY ON SITE.',
 
-    'demo.eyebrow': 'A CLEARER VIEW<br />OF YOUR OPERATION',
-    'demo.title': 'Get to know Vigía in <span class="accent">a guided demo</span>',
-    'demo.desc': 'Discover in a guided demo how Vigía helps you control your materials from the warehouse to the site, with real-time information, traceability and fewer losses.',
-    'demo.feature1': '<b>See the full flow of materials</b><small>From the warehouse, dispatches and transport to the site reception.</small>',
-    'demo.feature2': '<b>Explore dashboards and alerts</b><small>See indicators, progress and alerts for shortages or delays.</small>',
-    'demo.feature3': '<b>Ask the team your questions</b><small>A specialist will guide you and answer all your questions.</small>',
-    'demo.feature4': '<b>Assess whether Vigía fits your operation</b><small>Learn about use cases and get the best plan for your company.</small>',
-    'demo.feature5': '<b>Service for companies in Lima and other regions of Peru.</b><small>We support construction companies and logistics operations across the country.</small>',
-    'demo.productTitle': 'Product demo',
-    'demo.productDesc': 'See how Vigía connects your warehouse with the site, step by step.',
-    'demo.duration': '⏱ Estimated length: 3 min',
-    'demo.tagline': 'GREAT PROJECTS<br />BETTER COMMUNITIES',
-
-    'form.company': 'Company name',
-    'form.companyPlaceholder': 'E.g. Andina Construction',
-    'form.email': 'Work email',
-    'form.emailPlaceholder': 'you@company.com',
-    'form.noteRegions': '🏢 Service for companies in <b>Lima and other regions of Peru.</b>',
-    'form.noteSecure': '🔒 Your information is safe with us.',
-    'form.required': 'Please complete the required fields.',
-    'form.success': 'Thank you! A Vigía specialist will contact you.',
-
-    'video.watchDemo': 'Watch demo',
     'video.playTeam': 'Play team video',
     'video.comingSoon': 'Video coming soon.',
 
@@ -202,8 +178,6 @@ window.VIGIA_I18N = {
   es: {
     // Texts that only appear from script (not written in index.html).
     'header.closeMenu': 'Cerrar menú',
-    'form.required': 'Por favor completa los campos requeridos.',
-    'form.success': '¡Gracias! Un especialista de Vigía se pondrá en contacto contigo.',
     'video.comingSoon': 'Video disponible próximamente.'
   }
 };
