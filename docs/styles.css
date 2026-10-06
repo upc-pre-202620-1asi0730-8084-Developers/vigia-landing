@@ -222,9 +222,6 @@ ul, ol { list-style: none; }
 .section-strip { color: var(--color-text-2); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; margin-top: var(--sp-6); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .section-strip .right { margin-left: auto; }
 
-.play-btn { width: 48px; height: 48px; border-radius: 50%; background: var(--color-surface); box-shadow: var(--shadow-2); color: var(--color-primary); font-size: 18px; display: inline-flex; align-items: center; justify-content: center; }
-.video-status { margin: var(--sp-2) 0 0; font-size: 13px; font-weight: 600; color: var(--color-primary-2); text-align: center; }
-.video-block .video-status { text-align: left; }
 /* =========================================================
    PLANS
    ========================================================= */
@@ -268,9 +265,10 @@ ul, ol { list-style: none; }
 .t-role::before { content: ''; position: absolute; left: 0; top: 8px; width: 6px; height: 2px; background: var(--color-accent); }
 .t-desc { color: var(--color-text-2); font-size: 13px; }
 
-.video-block { margin-top: var(--sp-6); padding: var(--sp-4) var(--sp-5); border: 1px dashed var(--color-border); border-radius: var(--radius-md); display: flex; align-items: center; gap: var(--sp-4); background: rgba(255, 255, 255, .5); }
-.video-block b { color: var(--color-primary); font-size: 16px; }
-.video-block p { color: var(--color-text-2); font-size: 13px; }
+.video-block { margin-top: var(--sp-6); max-width: 960px; margin-inline: auto; }
+.video-title { color: var(--color-primary); font-size: 20px; margin-bottom: var(--sp-3); text-align: center; }
+.video-frame { position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-2); border: 1px solid var(--color-border); background: #000; }
+.video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
 .team-footer-strip { display: flex; justify-content: center; gap: var(--sp-6); flex-wrap: wrap; margin-top: var(--sp-6); color: var(--color-text-2); font-size: 13px; }
 .team-footer-strip b { color: var(--color-primary); }
@@ -325,7 +323,6 @@ ul, ol { list-style: none; }
   .steps li:not(.step-arrow) { min-width: 44%; }
   .plans-footer-strip { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; }
-  .video-block { flex-direction: column; align-items: flex-start; }
   .team-footer-strip { justify-content: flex-start; }
   .flow-cards { flex-direction: column; align-items: stretch; }
   .flow-cards > .arrow { transform: rotate(90deg); align-self: center; }

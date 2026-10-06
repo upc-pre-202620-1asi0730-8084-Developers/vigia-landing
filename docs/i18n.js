@@ -115,8 +115,8 @@ window.VIGIA_I18N = {
     'benefits.b6Desc': 'Manage all your projects from one platform, with a global real-time view.',
     'benefits.strip': 'MORE OPERATIONAL CONTROL. LESS UNCERTAINTY ON SITE.',
 
-    'video.playTeam': 'Play team video',
-    'video.comingSoon': 'Video coming soon.',
+    'how.videoTitle': 'About the product',
+    'how.videoFrameTitle': 'About the product',
 
     'plans.eyebrow': 'PLANS THAT DRIVE YOUR OPERATION',
     'plans.title': 'Subscription <span class="accent">plans</span>',
@@ -156,8 +156,8 @@ window.VIGIA_I18N = {
     'team.leonardoRole': 'Documentation and support',
     'team.leonardoDesc': 'Writes clear documentation and provides support for a successful implementation.',
     'team.leonardoPhoto': 'Photo of Leonardo',
-    'team.videoTitle': 'Team video',
-    'team.videoDesc': 'Soon you will meet the team behind Vigía.',
+    'team.videoTitle': 'About the team',
+    'team.videoFrameTitle': 'About the team',
     'team.strip1': '💡 <b>Ideas that build</b>',
     'team.strip2': '⚙️ <b>Technology with purpose</b>',
     'team.strip3': '📊 <b>A more efficient Peru</b>',
@@ -177,7 +177,6 @@ window.VIGIA_I18N = {
   },
   es: {
     // Texts that only appear from script (not written in index.html).
-    'header.closeMenu': 'Cerrar menú',
-    'video.comingSoon': 'Video disponible próximamente.'
+    'header.closeMenu': 'Cerrar menú'
   }
 };
