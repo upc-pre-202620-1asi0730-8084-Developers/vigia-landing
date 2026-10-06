@@ -15,7 +15,8 @@
     { selector: '[data-i18n-placeholder]', data: 'i18nPlaceholder', attr: 'placeholder' },
     { selector: '[data-i18n-aria-label]', data: 'i18nAriaLabel', attr: 'aria-label' },
     { selector: '[data-i18n-alt]', data: 'i18nAlt', attr: 'alt' },
-    { selector: '[data-i18n-content]', data: 'i18nContent', attr: 'content' }
+    { selector: '[data-i18n-content]', data: 'i18nContent', attr: 'content' },
+    { selector: '[data-i18n-title]', data: 'i18nTitle', attr: 'title' }
   ];
 
   // Spanish is the text written in index.html: keep it as the "es" dictionary.
@@ -63,22 +64,12 @@
   langBtns.forEach(function (btn) {
     btn.addEventListener('click', function () {
       applyLanguage(btn.dataset.lang);
-      // Messages already shown follow the new language too.
-      document.querySelectorAll('[data-message-key]').forEach(function (el) {
-        el.textContent = t(el.dataset.messageKey);
-      });
     });
   });
 
   var savedLang = null;
   try { savedLang = localStorage.getItem(LANG_STORAGE_KEY); } catch (e) { /* storage unavailable */ }
   if (savedLang && savedLang !== 'es') applyLanguage(savedLang);
-
-  /** Shows a translatable message in a status element. */
-  function showMessage(el, key) {
-    el.dataset.messageKey = key;
-    el.textContent = t(key);
-  }
 
   // ---------- Mobile menu toggle ----------
   var menuToggle = document.getElementById('menuToggle');
@@ -125,14 +116,5 @@
 
     sections.forEach(function (s) { io.observe(s.el); });
   }
-
-  // ---------- Play buttons (video not published yet) ----------
-  // Shows an inline note next to the button instead of a browser alert.
-  document.querySelectorAll('.play-btn').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var target = document.getElementById(btn.getAttribute('aria-describedby'));
-      if (target) showMessage(target, 'video.comingSoon');
-    });
-  });
 
 }());
