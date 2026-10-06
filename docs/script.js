@@ -126,50 +126,6 @@
     sections.forEach(function (s) { io.observe(s.el); });
   }
 
-  // ---------- Demo form ----------
-  var form = document.getElementById('demoForm');
-  var status = document.getElementById('formStatus');
-
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      status.textContent = '';
-      status.classList.remove('ok', 'err');
-
-      var empresa = form.elements.empresa;
-      var correo = form.elements.correo;
-      var valid = true;
-
-      empresa.classList.remove('invalid');
-      correo.classList.remove('invalid');
-      empresa.removeAttribute('aria-invalid');
-      correo.removeAttribute('aria-invalid');
-
-      if (!empresa.value.trim()) {
-        empresa.classList.add('invalid');
-        empresa.setAttribute('aria-invalid', 'true');
-        valid = false;
-      }
-
-      var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRe.test(correo.value.trim())) {
-        correo.classList.add('invalid');
-        correo.setAttribute('aria-invalid', 'true');
-        valid = false;
-      }
-
-      if (!valid) {
-        showMessage(status, 'form.required');
-        status.classList.add('err');
-        return;
-      }
-
-      showMessage(status, 'form.success');
-      status.classList.add('ok');
-      form.reset();
-    });
-  }
-
   // ---------- Play buttons (video not published yet) ----------
   // Shows an inline note next to the button instead of a browser alert.
   document.querySelectorAll('.play-btn').forEach(function (btn) {

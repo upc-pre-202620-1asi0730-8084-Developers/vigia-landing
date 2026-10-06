@@ -30,7 +30,6 @@
         <a href="#como-funciona" class="nav-link" data-i18n="nav.how">Cómo funciona</a>
         <a href="#beneficios" class="nav-link" data-i18n="nav.benefits">Beneficios</a>
         <a href="#planes" class="nav-link" data-i18n="nav.plans">Planes</a>
-        <a href="#demo" class="nav-link" data-i18n="nav.demo">Demo</a>
         <a href="#equipo" class="nav-link" data-i18n="nav.team">Equipo</a>
         <a href="#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
       </nav>
@@ -41,7 +40,7 @@
           <span class="lang-sep">|</span>
           <button type="button" class="lang-btn active" data-lang="es" aria-pressed="true">ES</button>
         </div>
-        <a href="#" class="btn btn-outline" data-i18n="header.signIn">Iniciar sesión</a>
+        <a href="https://vigia-frontend-8084.web.app" class="btn btn-outline" data-i18n="header.signIn">Iniciar sesión</a>
         <button type="button" class="menu-toggle" id="menuToggle" data-i18n-aria-label="header.openMenu" aria-label="Abrir menú" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -65,7 +64,7 @@
           para detectar faltantes, diferencias y retrasos a tiempo.
         </p>
         <div class="hero-cta">
-          <a href="#demo" class="btn btn-primary" data-i18n="hero.requestDemo">Solicitar demo <span class="arrow">→</span></a>
+          <a href="https://vigia-frontend-8084.web.app" class="btn btn-primary" data-i18n="hero.goToApp">Ir a la plataforma <span class="arrow">→</span></a>
           <a href="#planes" class="btn btn-ghost" data-i18n="hero.seePlans">Ver planes</a>
         </div>
         <ul class="hero-highlights">
@@ -213,65 +212,6 @@
     </div>
   </section>
 
-  <!-- ================= DEMO ================= -->
-  <section class="section demo" id="demo">
-    <div class="container demo-inner">
-      <div class="demo-copy">
-        <p class="eyebrow" data-i18n="demo.eyebrow">UNA VISIÓN MÁS CLARA<br />PARA TU OPERACIÓN</p>
-        <h2 class="section-title" data-i18n="demo.title">Conoce Vigía en <span class="accent">una demo guiada</span></h2>
-        <p class="section-desc" data-i18n="demo.desc">
-          Descubre en una demo guiada cómo Vigía te ayuda a controlar tus materiales
-          desde el almacén hasta la obra, con información en tiempo real, trazabilidad
-          y menos pérdidas.
-        </p>
-        <ul class="demo-features">
-          <li><span class="df-ico">📦</span><div data-i18n="demo.feature1"><b>Ver flujo completo de materiales</b><small>Desde el almacén, despachos y transporte hasta la recepción en obra.</small></div></li>
-          <li><span class="df-ico">📊</span><div data-i18n="demo.feature2"><b>Conocer dashboards y alertas</b><small>Visualiza indicadores, avances y alertas de faltantes o retrasos.</small></div></li>
-          <li><span class="df-ico">👥</span><div data-i18n="demo.feature3"><b>Resolver dudas con el equipo</b><small>Un especialista te guiará y responderá todas tus preguntas.</small></div></li>
-          <li><span class="df-ico">✔</span><div data-i18n="demo.feature4"><b>Evaluar si Vigía se adapta a tu operación</b><small>Conoce casos de uso y recomienda el mejor plan para tu empresa.</small></div></li>
-          <li><span class="df-ico">🇵🇪</span><div data-i18n="demo.feature5"><b>Atención para empresas en Lima y otras regiones del Perú.</b><small>Acompañamos a constructoras y operaciones logísticas en todo el país.</small></div></li>
-        </ul>
-        <p class="hero-strip"><span class="strip-dash"></span><span data-i18n="strip.trust">TRANSPARENCIA QUE CONSTRUYE CONFIANZA</span></p>
-      </div>
-
-      <div class="demo-card">
-        <span class="deco deco-demo" aria-hidden="true"></span>
-        <div class="demo-mock">
-          <h3 data-i18n="demo.productTitle">Demo del producto</h3>
-          <p data-i18n="demo.productDesc">Conoce cómo Vigía conecta tu almacén con la obra, paso a paso.</p>
-          <p class="duration" data-i18n="demo.duration">⏱ Duración estimada: 3 min</p>
-          <div class="demo-preview">
-            <span class="skeleton-line w80"></span>
-            <span class="skeleton-line w60"></span>
-            <span class="skeleton-line w40"></span>
-          </div>
-          <div class="demo-play"><button class="play-btn" type="button" data-i18n-aria-label="video.watchDemo" aria-label="Ver demo" aria-describedby="demoVideoStatus">▶</button></div>
-          <p class="video-status" id="demoVideoStatus" role="status" aria-live="polite"></p>
-        </div>
-
-        <form class="demo-form" id="demoForm" novalidate>
-          <div class="field-row">
-            <div class="field">
-              <label for="empresa" data-i18n="form.company">Nombre de empresa</label>
-              <input id="empresa" name="empresa" type="text" data-i18n-placeholder="form.companyPlaceholder" placeholder="Ej. Constructora Andina" required />
-            </div>
-            <div class="field">
-              <label for="correo" data-i18n="form.email">Correo corporativo</label>
-              <input id="correo" name="correo" type="email" placeholder="tucorreo@empresa.com" data-i18n-placeholder="form.emailPlaceholder" required />
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary btn-block" data-i18n="hero.requestDemo">Solicitar demo <span class="arrow">→</span></button>
-          <div class="form-notes">
-            <span data-i18n="form.noteRegions">🏢 Atención para empresas en <b>Lima y otras regiones del Perú.</b></span>
-            <span data-i18n="form.noteSecure">🔒 Tu información está segura con nosotros.</span>
-          </div>
-          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-        </form>
-        <p class="demo-tagline" data-i18n="demo.tagline">GRANDES OBRAS<br />MEJORES COMUNIDADES</p>
-      </div>
-    </div>
-  </section>
-
   <!-- ================= PLANES ================= -->
   <section class="section plans" id="planes">
     <span class="deco deco-plans" aria-hidden="true"></span>
@@ -298,7 +238,7 @@
             <li data-i18n="plans.f6">✓ Reportes avanzados y exportación</li>
             <li data-i18n="plans.f7">✓ Soporte prioritario</li>
           </ul>
-          <a href="#demo" class="btn btn-primary btn-block" data-i18n="plans.choose">Elegir plan</a>
+          <a href="#contacto" class="btn btn-primary btn-block" data-i18n="plans.choose">Elegir plan</a>
         </article>
 
         <article class="plan-card">
@@ -315,7 +255,7 @@
             <li data-i18n="plans.f6">✓ Reportes avanzados y exportación</li>
             <li data-i18n="plans.f7">✓ Soporte prioritario</li>
           </ul>
-          <a href="#demo" class="btn btn-primary btn-block" data-i18n="plans.choose">Elegir plan</a>
+          <a href="#contacto" class="btn btn-primary btn-block" data-i18n="plans.choose">Elegir plan</a>
         </article>
       </div>
 
@@ -419,7 +359,7 @@
 
       <div class="footer-col">
         <h4 data-i18n="footer.product">Producto</h4>
-        <ul><li><a href="#como-funciona" data-i18n="nav.how">Cómo funciona</a></li><li><a href="#beneficios" data-i18n="nav.benefits">Beneficios</a></li><li><a href="#planes" data-i18n="nav.plans">Planes</a></li><li><a href="#demo" data-i18n="nav.demo">Demo</a></li></ul>
+        <ul><li><a href="#como-funciona" data-i18n="nav.how">Cómo funciona</a></li><li><a href="#beneficios" data-i18n="nav.benefits">Beneficios</a></li><li><a href="#planes" data-i18n="nav.plans">Planes</a></li></ul>
       </div>
       <div class="footer-col">
         <h4 data-i18n="footer.company">Empresa</h4>
