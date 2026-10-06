@@ -57,46 +57,6 @@
     });
   });
 
-  // ---------- Demo form ----------
-  var form = document.getElementById('demoForm');
-  var status = document.getElementById('formStatus');
-
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      status.textContent = '';
-      status.classList.remove('ok', 'err');
-
-      var empresa = form.elements.empresa;
-      var correo = form.elements.correo;
-      var valid = true;
-
-      empresa.classList.remove('invalid');
-      correo.classList.remove('invalid');
-
-      if (!empresa.value.trim()) {
-        empresa.classList.add('invalid');
-        valid = false;
-      }
-
-      var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRe.test(correo.value.trim())) {
-        correo.classList.add('invalid');
-        valid = false;
-      }
-
-      if (!valid) {
-        status.textContent = 'Por favor completa los campos requeridos.';
-        status.classList.add('err');
-        return;
-      }
-
-      status.textContent = '¡Gracias! Un especialista de Vigía se pondrá en contacto contigo.';
-      status.classList.add('ok');
-      form.reset();
-    });
-  }
-
   // ---------- Play buttons (placeholder action) ----------
   document.querySelectorAll('.play-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
