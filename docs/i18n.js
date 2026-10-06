@@ -73,7 +73,7 @@ window.VIGIA_I18N = {
 
     'problem.eyebrow': 'THE PROBLEM WE SOLVE',
     'problem.title': 'Sites with more control, <span class="accent">fewer surprises</span>',
-    'problem.desc': 'Without traceability and real-time control, it is common to lose sight of materials, face differences in deliveries and detect problems too late. Vigía solves these challenges, designed for construction operations in Peru.',
+    'problem.desc': 'Information about a single dispatch is often spread across documents, calls and messages. Vigía centralizes warehouse, transport and reception records to maintain material traceability and make discrepancies easier to identify.',
     'problem.sideTag': 'MATERIALS UNDER CONTROL<br />SITES THAT MOVE FORWARD',
     'problem.card1Title': 'Lack of materials traceability',
     'problem.card1Desc': 'It is hard to know where materials are and whether they will reach the site on time.',
