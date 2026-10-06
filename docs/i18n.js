@@ -4,7 +4,7 @@
    so this file only needs the English texts. Values may contain
    simple trusted markup (<br>, <span>, <b>, <small>) from this file.
    ========================================================= */
-
+ 
 window.VIGIA_I18N = {
   en: {
     'meta.title': 'Vigía | Construction materials traceability',
