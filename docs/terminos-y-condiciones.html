@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="terms.metaTitle">Términos y Condiciones | Vigía</title>
+  <meta name="description" data-i18n-content="terms.metaDesc" content="Términos y Condiciones de Uso del Servicio de la plataforma Vigía, compromiso deontológico ACM/IEEE y CIP." />
+  <meta name="keywords" content="términos y condiciones, marco ético ACM IEEE, CIP, Vigía, Trazza Labs" />
+  <meta name="author" content="Trazza Labs" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html#top" class="brand" data-i18n-aria-label="header.brandLabel" aria-label="Vigía — Inicio">
+        <span class="brand-name">Vigia</span>
+        <span class="brand-tag" data-i18n="brand.tag">CONSTRUYE<br />CON VISIÓN</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" data-i18n-aria-label="header.navLabel" aria-label="Navegación principal">
+        <a href="index.html#top" class="nav-link" data-i18n="nav.home">Inicio</a>
+        <a href="index.html#como-funciona" class="nav-link" data-i18n="nav.how">Cómo funciona</a>
+        <a href="index.html#beneficios" class="nav-link" data-i18n="nav.benefits">Beneficios</a>
+        <a href="index.html#planes" class="nav-link" data-i18n="nav.plans">Planes</a>
+        <a href="index.html#equipo" class="nav-link" data-i18n="nav.team">Equipo</a>
+        <a href="index.html#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" data-i18n-aria-label="header.languageLabel" aria-label="Idioma">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <span class="lang-sep">|</span>
+          <button type="button" class="lang-btn active" data-lang="es" aria-pressed="true">ES</button>
+        </div>
+        <a href="https://vigia-frontend-8084.web.app" class="btn btn-outline" data-i18n="header.signIn">Iniciar sesión</a>
+        <button type="button" class="menu-toggle" id="menuToggle" data-i18n-aria-label="header.openMenu" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MAIN LEGAL CONTENT ================= -->
+  <main class="legal-main">
+    <div class="container">
+
+      <!-- Breadcrumbs & Print Action -->
+      <div class="legal-breadcrumb-bar">
+        <nav class="legal-breadcrumb" aria-label="Migas de pan">
+          <a href="index.html" data-i18n="nav.home">Inicio</a>
+          <span>/</span>
+          <span data-i18n="footer.legal">Legal</span>
+          <span>/</span>
+          <strong data-i18n="terms.title">Términos y condiciones</strong>
+        </nav>
+        <button type="button" class="btn-print" onclick="window.print()">
+          <span>🖨️</span>
+          <span data-i18n="terms.print">Imprimir / Guardar PDF</span>
+        </button>
+      </div>
+
+      <!-- Header Card -->
+      <div class="legal-header-card">
+        <div class="legal-badges">
+          <span class="legal-badge badge-blue">Vigía SaaS • Trazza Labs</span>
+          <span class="legal-badge badge-gray" data-i18n="terms.badgeVersion">Versión 1.2</span>
+          <span class="legal-badge badge-amber" data-i18n="terms.badgeAcm">Código Ético ACM / IEEE</span>
+          <span class="legal-badge badge-green" data-i18n="terms.badgeCip">Código Ético CIP</span>
+        </div>
+        <p class="eyebrow" data-i18n="terms.eyebrow">MARCO CONTRACTUAL Y DEONTOLÓGICO</p>
+        <h1 class="legal-title" data-i18n="terms.headerTitle">Términos y Condiciones de Uso del Servicio</h1>
+        <p class="legal-subtitle" data-i18n="terms.headerSubtitle">
+          Condiciones contractuales, responsabilidades de rol y marco ético profesional para la plataforma Vigía.
+        </p>
+        <div class="legal-meta">
+          <span data-i18n="terms.updated">📅 Última actualización: 27 de Octubre de 2026</span>
+          <span>&bull;</span>
+          <span data-i18n="terms.jurisdiction">📍 Lima, República del Perú</span>
+        </div>
+      </div>
+
+      <!-- Tabla de Contenido Rápido (TOC) -->
+      <nav class="legal-toc" aria-label="Índice de secciones">
+        <div class="legal-toc-title">
+          <span>📑</span> <span data-i18n="terms.tocTitle">Índice del documento</span>
+        </div>
+        <div class="legal-toc-grid">
+          <a href="#sec-1" class="toc-link"><span class="toc-num">01</span> <span data-i18n="terms.nav1">Objeto y Ámbito</span></a>
+          <a href="#sec-2" class="toc-link"><span class="toc-num">02</span> <span data-i18n="terms.nav2">Marco Ético ACM/IEEE y CIP</span></a>
+          <a href="#sec-3" class="toc-link"><span class="toc-num">03</span> <span data-i18n="terms.nav3">Cuentas y Roles RBAC</span></a>
+          <a href="#sec-4" class="toc-link"><span class="toc-num">04</span> <span data-i18n="terms.nav4">Conductas Prohibidas</span></a>
+          <a href="#sec-5" class="toc-link"><span class="toc-num">05</span> <span data-i18n="terms.nav5">Integridad y Auditoría</span></a>
+          <a href="#sec-6" class="toc-link"><span class="toc-num">06</span> <span data-i18n="terms.nav6">Propiedad Intelectual</span></a>
+          <a href="#sec-7" class="toc-link"><span class="toc-num">07</span> <span data-i18n="terms.nav7">Disponibilidad y SLA</span></a>
+          <a href="#sec-8" class="toc-link"><span class="toc-num">08</span> <span data-i18n="terms.nav8">Ley y Jurisdicción</span></a>
+        </div>
+      </nav>
+
+      <!-- Secciones Legales -->
+      <div class="legal-content">
+
+        <!-- Sección 1 -->
+        <section id="sec-1" class="legal-section-card">
+          <h2><span class="sec-badge">01</span> <span data-i18n="terms.s1Title">Objeto y Ámbito de Aplicación</span></h2>
+          <p data-i18n="terms.s1p1">
+            Vigía es una plataforma web desarrollada por Trazza Labs orientada a la supervisión, trazabilidad y cadena de custodia en tiempo real de materiales de construcción (tales como cemento, áridos, acero corrugado y concreto premezclado) en proyectos civiles e industriales en la República del Perú.
+          </p>
+          <p data-i18n="terms.s1p2">
+            El acceso y utilización de la plataforma Vigía atribuye la condición de usuario e implica la aceptación plena, expresa y sin reservas de todas las disposiciones contenidas en estos Términos y Condiciones. Cualquier persona u organización que no acepte estos términos obligatorios y vinculantes deberá abstenerse de utilizar el servicio.
+          </p>
+          <div class="callout callout-info">
+            <span>ℹ️</span>
+            <div>
+              <strong data-i18n="terms.s1CalloutTitle">Ámbito Operativo:</strong>
+              <span data-i18n="terms.s1CalloutText"> Vigía opera como sistema de registro de cadena de custodia, integrando telemetría satelital, pesaje en balanza de obra, verificación documental contra guías de remisión electrónicas y control de mermas o incidencias.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 2: Marco Ético ACM/IEEE y CIP -->
+        <section id="sec-2" class="legal-section-card">
+          <h2><span class="sec-badge amber">02</span> <span data-i18n="terms.s2Title">Marco Ético y Profesional (ACM / IEEE y CIP)</span></h2>
+          <p data-i18n="terms.s2Intro">
+            En concordancia con los criterios de acreditación internacional ABET para programas de ingeniería y las directrices deontológicas peruanas, el diseño, despliegue y operación de Vigía se fundamentan estrictamente en los códigos de ética profesional reconocidos en la industria:
+          </p>
+
+          <div class="ethics-grid">
+            <!-- ACM / IEEE -->
+            <div class="ethics-box acm">
+              <div class="ethics-box-title" data-i18n="terms.s2AcmTitle">Código de Ética y Práctica Profesional ACM / IEEE-CS</div>
+              <p class="ethics-box-desc" data-i18n="terms.s2AcmDesc">
+                La práctica de ingeniería de software en Vigía se rige por los principios del Código conjunto ACM/IEEE, enfatizando la salvaguarda de la vida, la salud y la seguridad pública:
+              </p>
+              <ul class="ethics-list">
+                <li><strong data-i18n="terms.s2Acm1Title">Interés Público (Principio 1):</strong> <span data-i18n="terms.s2Acm1Text">Garantizar que las obras civiles cuenten con materiales certificados e inalterados, anteponiendo la seguridad estructural de la población sobre cualquier conveniencia económica.</span></li>
+                <li><strong data-i18n="terms.s2Acm2Title">Cliente y Empleador (Principio 2):</strong> <span data-i18n="terms.s2Acm2Text">Actuar con lealtad y transparencia hacia los contratistas y supervisores, custodiando la confidencialidad sin encubrir irregularidades técnicas.</span></li>
+                <li><strong data-i18n="terms.s2Acm3Title">Producto e Integridad (Principio 3):</strong> <span data-i18n="terms.s2Acm3Text">Mantener rigurosos estándares de exactitud en los registros de pesaje, actas de recepción y evidencias de no conformidad, garantizando que el software no falsee resultados.</span></li>
+                <li><strong data-i18n="terms.s2Acm4Title">Juicio Profesional (Principio 4):</strong> <span data-i18n="terms.s2Acm4Text">Preservar la integridad técnica e independencia en la emisión de dictámenes de discrepancia, rechazando cualquier intento de manipulación o coacción.</span></li>
+              </ul>
+            </div>
+
+            <!-- CIP -->
+            <div class="ethics-box cip">
+              <div class="ethics-box-title" data-i18n="terms.s2CipTitle">Código de Ética del Colegio de Ingenieros del Perú (CIP)</div>
+              <p class="ethics-box-desc" data-i18n="terms.s2CipDesc">
+                En el ejercicio técnico dentro del territorio peruano, los usuarios y desarrolladores asumen el compromiso de honrar los mandatos del Colegio de Ingenieros del Perú:
+              </p>
+              <ul class="ethics-list">
+                <li><strong data-i18n="terms.s2Cip1Title">Probidad y Veracidad:</strong> <span data-i18n="terms.s2Cip1Text">Consagrar el ejercicio profesional a la verdad objetiva, registrando en los libros de obra y en la plataforma datos técnicos fidedignos sin adulteración de cubicaje o peso.</span></li>
+                <li><strong data-i18n="terms.s2Cip2Title">Defensa del Interés Colectivo:</strong> <span data-i18n="terms.s2Cip2Text">Proteger la calidad y durabilidad de las obras públicas y privadas, coadyuvando a prevenir vicios ocultos derivados de materiales deficientes o recepciones fraudulentas.</span></li>
+                <li><strong data-i18n="terms.s2Cip3Title">Rechazo a la Corrupción:</strong> <span data-i18n="terms.s2Cip3Text">Repudiar activamente cualquier práctica colusoria, soborno o simulación de recepción de insumos en contravención de la Ley de Contrataciones del Estado y el Código Penal.</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 3 -->
+        <section id="sec-3" class="legal-section-card">
+          <h2><span class="sec-badge">03</span> <span data-i18n="terms.s3Title">Cuentas de Usuario y Asignación de Roles</span></h2>
+          <p data-i18n="terms.s3p1">
+            El acceso a la plataforma está regulado mediante un modelo de Control de Acceso Basado en Roles (RBAC). Cada usuario cuenta con un perfil institucional único, credenciales intransferibles y permisos específicos según su función dentro de la cadena logística:
+          </p>
+          <div class="roles-cards-grid">
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="terms.s3Role1Title">Supervisor (Admin)</div>
+              <p data-i18n="terms.s3Role1Text">Responsable de la supervisión general, configuración de parámetros operativos, auditoría de discrepancias graves y gestión de geocercas satelitales.</p>
+            </div>
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="terms.s3Role2Title">Responsable de Almacén</div>
+              <p data-i18n="terms.s3Role2Text">Encargado de la creación de despachos, programación de salidas de materiales, asignación de unidades de transporte y vinculación de dispositivos telemáticos.</p>
+            </div>
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="terms.s3Role3Title">Responsable de Obra</div>
+              <p data-i18n="terms.s3Role3Text">Encargado de la verificación física en el frente de obra, pesaje en balanza, registro fotográfico de precintos, firma del acta de recepción y reporte de discrepancias.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 4 -->
+        <section id="sec-4" class="legal-section-card">
+          <h2><span class="sec-badge">04</span> <span data-i18n="terms.s4Title">Obligaciones del Usuario y Conductas Prohibidas</span></h2>
+          <p data-i18n="terms.s4p1">
+            Queda estrictamente prohibido a cualquier operador o usuario de la plataforma realizar las siguientes acciones bajo apercibimiento de sanción inmediata y denuncia legal:
+          </p>
+          <ul class="ethics-list">
+            <li><strong data-i18n="terms.s4pItem1Title">Adulteración de Registros:</strong> <span data-i18n="terms.s4pItem1Text">Ingresar deliberadamente datos falsos sobre tonelajes, cantidades, condiciones de precinto, horarios de llegada o descripciones de materiales recepcionados.</span></li>
+            <li><strong data-i18n="terms.s4pItem2Title">Manipulación Telemática (GPS Spoofing):</strong> <span data-i18n="terms.s4pItem2Text">Simular, falsear o interferir deliberadamente con las coordenadas de localización satelital, geocercas o dispositivos IoT emparejados a las unidades de transporte.</span></li>
+            <li><strong data-i18n="terms.s4pItem3Title">Suplantación de Identidad y Cesión de Firmas:</strong> <span data-i18n="terms.s4pItem3Text">Firmar actas de recepción utilizando credenciales ajenas o prestar la cuenta a terceros no autorizados por la dirección técnica de obra.</span></li>
+            <li><strong data-i18n="terms.s4pItem4Title">Vulneración de Seguridad:</strong> <span data-i18n="terms.s4pItem4Text">Realizar ingeniería inversa, análisis no autorizado de vulnerabilidades, inyección de código malicioso o denegación de servicio.</span></li>
+          </ul>
+          <div class="callout callout-warning">
+            <span>⚠️</span>
+            <div>
+              <strong data-i18n="terms.s4WarnTitle">Advertencia Legal:</strong>
+              <span data-i18n="terms.s4WarnText"> Cualquier alteración dolosa de las actas de recepción o guías electrónicas acarreará la inhabilitación del acceso, informe técnico a la supervisión de obra y las acciones civiles y penales correspondientes.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 5 -->
+        <section id="sec-5" class="legal-section-card">
+          <h2><span class="sec-badge">05</span> <span data-i18n="terms.s5Title">Integridad de Datos y Auditoría Operativa</span></h2>
+          <p data-i18n="terms.s5p1">
+            Todos los eventos críticos del ciclo de vida del material —creación del despacho, salida de almacén, cruce de geocercas, pesaje en balanza de obra, registro fotográfico y firma de conformidad— quedan registrados en una bitácora inmutable de auditoría.
+          </p>
+          <p data-i18n="terms.s5p2">
+            Cada registro cuenta con marca de tiempo precisa (timestamp) y trazabilidad asociada al identificador del usuario responsable, impidiendo el repudio o la alteración retroactiva de las evidencias técnicas recolectadas.
+          </p>
+        </section>
+
+        <!-- Sección 6 -->
+        <section id="sec-6" class="legal-section-card">
+          <h2><span class="sec-badge">06</span> <span data-i18n="terms.s6Title">Propiedad Intelectual</span></h2>
+          <p data-i18n="terms.s6p1">
+            Todos los derechos de propiedad intelectual sobre el software Vigía, código fuente, interfaces, logotipos, arquitectura de bases de datos y algoritmos de detección de discrepancias son de propiedad exclusiva de Trazza Labs S.A.C. o de sus respectivos licenciantes.
+          </p>
+          <p data-i18n="terms.s6p2">
+            Se concede a la empresa contratista o entidad usuaria una licencia de uso limitada, no exclusiva e intransferible para fines operacionales durante la vigencia del contrato de prestación de servicios, quedando prohibida su reproducción o explotación comercial no autorizada.
+          </p>
+        </section>
+
+        <!-- Sección 7 -->
+        <section id="sec-7" class="legal-section-card">
+          <h2><span class="sec-badge">07</span> <span data-i18n="terms.s7Title">Disponibilidad del Servicio y Límites de Responsabilidad</span></h2>
+          <p data-i18n="terms.s7p1">
+            Trazza Labs despliega su infraestructura sobre servicios cloud de alta disponibilidad para garantizar una continuidad operativa ininterrumpida. No obstante, en ubicaciones de obra con conectividad celular deficiente, la plataforma provee soporte para almacenamiento provisional local y sincronización diferida al reanudarse el enlace.
+          </p>
+          <p data-i18n="terms.s7p2">
+            Trazza Labs no se responsabiliza por retrasos derivados de fallas de telecomunicaciones de terceros operadores, cortes fortuitos de energía o fuerza mayor climatológica que impida el tránsito regular de las unidades en carretera.
+          </p>
+        </section>
+
+        <!-- Sección 8 -->
+        <section id="sec-8" class="legal-section-card">
+          <h2><span class="sec-badge">08</span> <span data-i18n="terms.s8Title">Ley Aplicable y Jurisdicción</span></h2>
+          <p data-i18n="terms.s8p1">
+            Los presentes Términos y Condiciones se rigen de manera integral por las leyes de la República del Perú. Para cualquier controversia técnica o legal derivada del uso del servicio, las partes procurarán un entendimiento directo y amistoso mediante trato directo.
+          </p>
+          <p data-i18n="terms.s8p2">
+            En caso de persistir discrepancias no resueltas en trato directo, las partes se someten a los mecanismos de conciliación extrajudicial y, en su defecto, a la competencia de los Jueces y Tribunales del Distrito Judicial de Lima Metropolitana, renunciando a cualquier otro fuero que pudiera corresponderles.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- CTA Card al pie de página -->
+      <div class="legal-cta-card">
+        <div class="legal-cta-text">
+          <h3 data-i18n="terms.ctaTitle">¿Deseas conocer cómo protegemos tus datos personales?</h3>
+          <p data-i18n="terms.ctaDesc">Revisa nuestras Políticas de Privacidad y Seguridad conforme a la Ley Nº 29733 del Perú.</p>
+        </div>
+        <a href="politica-de-privacidad.html" class="btn btn-primary" data-i18n="terms.ctaBtn">
+          <span>Ver Política de Privacidad</span> <span class="arrow">→</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer" id="contacto">
+    <span class="deco deco-footer" aria-hidden="true"></span>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="brand brand-light">
+          <span class="brand-name">Vigia</span>
+          <span class="brand-tag" data-i18n="brand.tag">CONSTRUYE<br />CON VISIÓN</span>
+        </div>
+        <p data-i18n="footer.desc">Tecnología para una construcción más eficiente, transparente y segura en todo el Perú.</p>
+        <ul class="socials" data-i18n-aria-label="footer.socialLabel" aria-label="Redes sociales">
+          <li><a href="#" aria-label="LinkedIn">in</a></li>
+          <li><a href="#" aria-label="YouTube">▶</a></li>
+          <li><a href="#" aria-label="Email">✉</a></li>
+        </ul>
+        <p class="strip-line"><span class="strip-dash"></span> <span data-i18n="strip.allPeru">EN TODO EL PERÚ</span></p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.product">Producto</h4>
+        <ul><li><a href="index.html#como-funciona" data-i18n="nav.how">Cómo funciona</a></li><li><a href="index.html#beneficios" data-i18n="nav.benefits">Beneficios</a></li><li><a href="index.html#planes" data-i18n="nav.plans">Planes</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.company">Empresa</h4>
+        <ul><li><a href="index.html#equipo" data-i18n="nav.team">Equipo</a></li><li><a href="index.html#contacto" data-i18n="nav.contact">Contacto</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.support">Soporte</h4>
+        <ul><li><a href="#" data-i18n="footer.faq">Preguntas frecuentes</a></li><li><a href="#" data-i18n="footer.help">Ayuda</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.legal">Legal</h4>
+        <ul><li><a href="terminos-y-condiciones.html" data-i18n="footer.terms">Términos y condiciones</a></li><li><a href="politica-de-privacidad.html" data-i18n="footer.privacy">Política de privacidad</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactUs">Contáctanos</h4>
+        <ul class="contact-list">
+          <li>📍 Lima, Perú</li>
+          <li>✉ contacto@vigia.pe</li>
+          <li>📞 +51 999 123 456</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span data-i18n="footer.rights">© 2026 Vigía. Todos los derechos reservados.</span>
+        <span class="right"><span class="strip-dash"></span> <span data-i18n="strip.trust">TRANSPARENCIA QUE CONSTRUYE CONFIANZA</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
