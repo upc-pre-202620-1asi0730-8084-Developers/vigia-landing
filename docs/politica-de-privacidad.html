@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="privacy.metaTitle">Políticas de Privacidad y Seguridad | Vigía</title>
+  <meta name="description" data-i18n-content="privacy.metaDesc" content="Políticas de Privacidad y Seguridad de la Información de Vigía bajo la Ley Nº 29733 de Protección de Datos Personales de la República del Perú." />
+  <meta name="keywords" content="política de privacidad, ley 29733, protección de datos Perú, derechos ARCO, ciberseguridad, Vigía, Trazza Labs" />
+  <meta name="author" content="Trazza Labs" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html#top" class="brand" data-i18n-aria-label="header.brandLabel" aria-label="Vigía — Inicio">
+        <span class="brand-name">Vigia</span>
+        <span class="brand-tag" data-i18n="brand.tag">CONSTRUYE<br />CON VISIÓN</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" data-i18n-aria-label="header.navLabel" aria-label="Navegación principal">
+        <a href="index.html#top" class="nav-link" data-i18n="nav.home">Inicio</a>
+        <a href="index.html#como-funciona" class="nav-link" data-i18n="nav.how">Cómo funciona</a>
+        <a href="index.html#beneficios" class="nav-link" data-i18n="nav.benefits">Beneficios</a>
+        <a href="index.html#planes" class="nav-link" data-i18n="nav.plans">Planes</a>
+        <a href="index.html#equipo" class="nav-link" data-i18n="nav.team">Equipo</a>
+        <a href="index.html#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" data-i18n-aria-label="header.languageLabel" aria-label="Idioma">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <span class="lang-sep">|</span>
+          <button type="button" class="lang-btn active" data-lang="es" aria-pressed="true">ES</button>
+        </div>
+        <a href="https://vigia-frontend-8084.web.app" class="btn btn-outline" data-i18n="header.signIn">Iniciar sesión</a>
+        <button type="button" class="menu-toggle" id="menuToggle" data-i18n-aria-label="header.openMenu" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MAIN LEGAL CONTENT ================= -->
+  <main class="legal-main">
+    <div class="container">
+
+      <!-- Breadcrumbs & Print Action -->
+      <div class="legal-breadcrumb-bar">
+        <nav class="legal-breadcrumb" aria-label="Migas de pan">
+          <a href="index.html" data-i18n="nav.home">Inicio</a>
+          <span>/</span>
+          <span data-i18n="footer.legal">Legal</span>
+          <span>/</span>
+          <strong data-i18n="privacy.title">Política de privacidad</strong>
+        </nav>
+        <button type="button" class="btn-print" onclick="window.print()">
+          <span>🖨️</span>
+          <span data-i18n="privacy.print">Imprimir / Guardar PDF</span>
+        </button>
+      </div>
+
+      <!-- Header Card -->
+      <div class="legal-header-card privacy-border">
+        <div class="legal-badges">
+          <span class="legal-badge badge-green" data-i18n="privacy.badgeLaw">Ley Nº 29733 (Perú)</span>
+          <span class="legal-badge badge-gray" data-i18n="privacy.badgeDs">D.S. 003-2013-JUS</span>
+          <span class="legal-badge badge-blue" data-i18n="privacy.badgeSecurity">Cifrado TLS 1.3 & AES-256</span>
+          <span class="legal-badge badge-amber" data-i18n="privacy.badgeAuthority">MINJUS - ANPDP</span>
+        </div>
+        <p class="eyebrow" data-i18n="privacy.eyebrow">PROTECCIÓN DE DATOS PERSONALES Y CIBERSEGURIDAD</p>
+        <h1 class="legal-title" data-i18n="privacy.headerTitle">Políticas de Privacidad y Seguridad de la Información</h1>
+        <p class="legal-subtitle" data-i18n="privacy.headerSubtitle">
+          Cumplimiento estricto de la Ley Nº 29733 de Protección de Datos Personales del Perú y directivas de ciberseguridad industrial.
+        </p>
+        <div class="legal-meta">
+          <span data-i18n="privacy.updated">📅 Última actualización: 27 de Octubre de 2026</span>
+          <span>&bull;</span>
+          <span data-i18n="privacy.jurisdiction">📍 Lima, República del Perú</span>
+        </div>
+      </div>
+
+      <!-- Tabla de Contenido Rápido (TOC) -->
+      <nav class="legal-toc" aria-label="Índice de secciones de privacidad">
+        <div class="legal-toc-title">
+          <span>📑</span> <span data-i18n="terms.tocTitle">Índice del documento</span>
+        </div>
+        <div class="legal-toc-grid">
+          <a href="#psec-1" class="toc-link"><span class="toc-num">01</span> <span data-i18n="privacy.nav1">Marco Normativo</span></a>
+          <a href="#psec-2" class="toc-link"><span class="toc-num">02</span> <span data-i18n="privacy.nav2">Datos Recopilados</span></a>
+          <a href="#psec-3" class="toc-link"><span class="toc-num">03</span> <span data-i18n="privacy.nav3">Finalidad del Tratamiento</span></a>
+          <a href="#psec-4" class="toc-link"><span class="toc-num">04</span> <span data-i18n="privacy.nav4">Medidas de Seguridad</span></a>
+          <a href="#psec-5" class="toc-link"><span class="toc-num">05</span> <span data-i18n="privacy.nav5">Derechos ARCO</span></a>
+          <a href="#psec-6" class="toc-link"><span class="toc-num">06</span> <span data-i18n="privacy.nav6">Conservación de Datos</span></a>
+          <a href="#psec-7" class="toc-link"><span class="toc-num">07</span> <span data-i18n="privacy.nav7">Contacto y Autoridad</span></a>
+        </div>
+      </nav>
+
+      <!-- Secciones Legales -->
+      <div class="legal-content">
+
+        <!-- Sección 1 -->
+        <section id="psec-1" class="legal-section-card">
+          <h2><span class="sec-badge green">01</span> <span data-i18n="privacy.s1Title">Marco Normativo y Registro del Banco de Datos</span></h2>
+          <p data-i18n="privacy.s1p1">
+            Trazza Labs S.A.C., titular de la plataforma web Vigía, reconoce y garantiza el derecho fundamental a la protección de datos personales consagrado en el artículo 2, numeral 6 de la Constitución Política del Perú, en estricta conformidad con la Ley Nº 29733 (Ley de Protección de Datos Personales) y su Reglamento aprobado por Decreto Supremo Nº 003-2013-JUS.
+          </p>
+          <p data-i18n="privacy.s1p2">
+            Los datos recopilados a través de la plataforma son incorporados al banco de datos personales de titularidad de Trazza Labs, el cual se encuentra registrado ante el Registro Nacional de Protección de Datos Personales administrado por el Ministerio de Justicia y Derechos Humanos (MINJUS).
+          </p>
+          <div class="callout callout-success">
+            <span>🛡️</span>
+            <div>
+              <strong data-i18n="privacy.s1CalloutTitle">Principio de Legalidad y Consentimiento:</strong>
+              <span data-i18n="privacy.s1CalloutText"> El tratamiento de los datos personales de los colaboradores de obra se realiza con arreglo a la ley, mediando consentimiento previo, expreso e informado o en el marco de la relación laboral y contractual suscrita con sus empleadores.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 2 -->
+        <section id="psec-2" class="legal-section-card">
+          <h2><span class="sec-badge green">02</span> <span data-i18n="privacy.s2Title">Categorías de Datos Recopilados</span></h2>
+          <p data-i18n="privacy.s2Intro">
+            Para la operatividad del sistema de trazabilidad de insumos y control de obra, Vigía recolecta exclusivamente los datos necesarios y pertinentes clasificados en tres categorías principales:
+          </p>
+          <div class="roles-cards-grid">
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="privacy.s2Cat1Title">Datos de Identificación del Personal</div>
+              <p data-i18n="privacy.s2Cat1Text">Nombres completos, Documento Nacional de Identidad (DNI) o Carné de Extranjería, correo corporativo y rol institucional asignado para control de accesos.</p>
+            </div>
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="privacy.s2Cat2Title">Telemetría y Geolocalización</div>
+              <p data-i18n="privacy.s2Cat2Text">Coordenadas satelitales GPS del vehículo de carga en tránsito, marcas temporales de ingreso/salida a geocercas autorizadas e identificador del dispositivo telemático.</p>
+            </div>
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="privacy.s2Cat3Title">Evidencias y Verificación Técnica</div>
+              <p data-i18n="privacy.s2Cat3Text">Firma digital manuscrita capturada en pantalla táctil al recepcionar el material, fotografías del estado del precinto de seguridad, pesaje en balanza y número de guía electrónica.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 3 -->
+        <section id="psec-3" class="legal-section-card">
+          <h2><span class="sec-badge green">03</span> <span data-i18n="privacy.s3Title">Finalidad del Tratamiento de los Datos</span></h2>
+          <p data-i18n="privacy.s3p1">
+            Los datos personales y operacionales recopilados son tratados exclusivamente para fines legítimos, transparentes y directamente vinculados a la prestación del servicio:
+          </p>
+          <ul class="ethics-list">
+            <li><strong data-i18n="privacy.s3Item1Title">Trazabilidad de la Cadena de Custodia:</strong> <span data-i18n="privacy.s3Item1Text">Garantizar el control integral de los materiales de construcción desde su despacho en planta hasta su recepción y verificación en el frente de obra.</span></li>
+            <li><strong data-i18n="privacy.s3Item2Title">Prevención de Fraudes y Mermas:</strong> <span data-i18n="privacy.s3Item2Text">Detectar desvíos de ruta injustificados, apertura no autorizada de precintos o inconsistencias de peso entre la salida y el destino.</span></li>
+            <li><strong data-i18n="privacy.s3Item3Title">Auditoría Contractual y Cumplimiento:</strong> <span data-i18n="privacy.s3Item3Text">Generar actas de recepción con validez técnica para sustentar las valorizaciones de obra ante las empresas supervisoras y entidades contratantes.</span></li>
+            <li><strong data-i18n="privacy.s3Item4Title">Seguridad y Gestión de Incidentes:</strong> <span data-i18n="privacy.s3Item4Text">Atender reportes de discrepancia, mermas por rotura y solicitudes de soporte técnico de los usuarios registrados.</span></li>
+          </ul>
+          <div class="callout callout-info">
+            <span>🔒</span>
+            <div>
+              <strong data-i18n="privacy.s3NoSaleTitle">Prohibición de Comercialización y Cesión:</strong>
+              <span data-i18n="privacy.s3NoSaleText"> Trazza Labs no vende, no alquila ni cede datos personales a terceras entidades con fines publicitarios o de prospección comercial.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 4 -->
+        <section id="psec-4" class="legal-section-card">
+          <h2><span class="sec-badge green">04</span> <span data-i18n="privacy.s4Title">Medidas de Seguridad de la Información</span></h2>
+          <p data-i18n="privacy.s4Intro">
+            En cumplimiento del principio de seguridad establecido en la Ley Nº 29733, Trazza Labs implementa rigurosas medidas técnicas y organizativas para proteger la confidencialidad e integridad:
+          </p>
+          <div class="roles-cards-grid">
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="privacy.s4C1Title">Cifrado en Tránsito y Reposo</div>
+              <p data-i18n="privacy.s4C1Text">Comunicaciones protegidas mediante protocolos modernos TLS 1.3 con certificados HTTPS de alta seguridad. Cifrado en reposo para bases de datos mediante AES-256.</p>
+            </div>
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="privacy.s4C2Title">Control de Acceso de Mínimo Privilegio</div>
+              <p data-i18n="privacy.s4C2Text">Implementación estricta de RBAC (Role-Based Access Control), impidiendo que operadores sin debidas atribuciones accedan a datos de otras obras o empresas.</p>
+            </div>
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="privacy.s4C3Title">Bitácoras y Trazabilidad Inmutable</div>
+              <p data-i18n="privacy.s4C3Text">Cada acción crítica queda registrada en logs de auditoría inmutables, facilitando la detección de accesos no autorizados o anomalías operativas.</p>
+            </div>
+            <div class="role-box">
+              <div class="role-box-title" data-i18n="privacy.s4C4Title">Tokenización de Sesiones</div>
+              <p data-i18n="privacy.s4C4Text">Las credenciales no se almacenan en texto plano en el cliente y las sesiones cuentan con expiración automática para salvaguardar cuentas en obra.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 5: Derechos ARCO -->
+        <section id="psec-5" class="legal-section-card">
+          <h2><span class="sec-badge amber">05</span> <span data-i18n="privacy.s5Title">Ejercicio de Derechos ARCO</span></h2>
+          <p data-i18n="privacy.s5Intro">
+            De conformidad con la Ley Nº 29733 y su Reglamento, los titulares de datos personales tienen derecho a ejercer de manera gratuita sus derechos de Acceso, Rectificación, Cancelación y Oposición (ARCO):
+          </p>
+          <div class="arco-grid">
+            <div class="arco-card">
+              <div class="arco-letter">A</div>
+              <div class="arco-name" data-i18n="privacy.arcoATitle">Acceso</div>
+              <p class="arco-desc" data-i18n="privacy.arcoADesc">Conocer qué datos personales propios se encuentran registrados en la plataforma y las condiciones de su tratamiento.</p>
+            </div>
+            <div class="arco-card">
+              <div class="arco-letter">R</div>
+              <div class="arco-name" data-i18n="privacy.arcoRTitle">Rectificación</div>
+              <p class="arco-desc" data-i18n="privacy.arcoRDesc">Solicitar la actualización, inclusión o corrección de datos personales que resulten inexactos o incompletos.</p>
+            </div>
+            <div class="arco-card">
+              <div class="arco-letter">C</div>
+              <div class="arco-name" data-i18n="privacy.arcoCTitle">Cancelación</div>
+              <p class="arco-desc" data-i18n="privacy.arcoCDesc">Solicitar la supresión de sus datos cuando hayan dejado de ser necesarios o pertinentes para la finalidad operativa.</p>
+            </div>
+            <div class="arco-card">
+              <div class="arco-letter">O</div>
+              <div class="arco-name" data-i18n="privacy.arcoOTitle">Oposición</div>
+              <p class="arco-desc" data-i18n="privacy.arcoODesc">Oponerse al tratamiento de sus datos personales por motivos fundados y legítimos relativos a una situación concreta.</p>
+            </div>
+          </div>
+
+          <div class="callout callout-info" style="margin-top: 16px;">
+            <span>📨</span>
+            <div>
+              <strong data-i18n="privacy.procTitle">Procedimiento y Canal Formal de Atención ARCO:</strong>
+              <p style="margin: 4px 0;" data-i18n="privacy.procDesc">Para ejercer cualquiera de sus derechos, remita una solicitud por escrito dirigida al Oficial de Privacidad de Trazza Labs al correo: <strong>privacidad@vigia.pe</strong> adjuntando copia de su documento de identidad.</p>
+              <small data-i18n="privacy.procTime">Plazos de ley: Las solicitudes de acceso se atienden en un plazo máximo de 20 días hábiles; rectificación, cancelación u oposición en 10 días hábiles conforme al D.S. Nº 003-2013-JUS.</small>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sección 6 -->
+        <section id="psec-6" class="legal-section-card">
+          <h2><span class="sec-badge green">06</span> <span data-i18n="privacy.s6Title">Periodo de Conservación de Datos</span></h2>
+          <p data-i18n="privacy.s6p1">
+            Los datos personales se conservarán mientras dure la relación contractual o laboral que justifica el uso de la plataforma Vigía y durante la ejecución del proyecto de construcción correspondiente.
+          </p>
+          <p data-i18n="privacy.s6p2">
+            Posteriormente, los registros de auditoría, despachos y actas de recepción se mantendrán debidamente bloqueados durante los plazos legalmente exigibles para la atención de responsabilidades tributarias ante la SUNAT (5 años) y responsabilidades contractuales civiles de acuerdo al Código Civil Peruano (10 años para vicios y peritajes de obras). Transcurrido dicho plazo, se procederá a su eliminación segura o anonimización irreversible.
+          </p>
+        </section>
+
+        <!-- Sección 7 -->
+        <section id="psec-7" class="legal-section-card">
+          <h2><span class="sec-badge green">07</span> <span data-i18n="privacy.s7Title">Canales de Contacto y Autoridad Competente</span></h2>
+          <p data-i18n="privacy.s7p1">
+            Para cualquier consulta, reclamo o sugerencia relativa a la presente Política de Privacidad y Seguridad, puede comunicarse a través del correo <strong>privacidad@vigia.pe</strong> o en la sede corporativa de Trazza Labs ubicada en Lima, Perú.
+          </p>
+          <p data-i18n="privacy.s7p2">
+            Si considera que su derecho a la protección de datos no ha sido debidamente atendido, tiene la facultad de acudir a la Autoridad Nacional de Protección de Datos Personales (ANPDP), adscrita a la Dirección General de Transparencia, Acceso a la Información Pública y Protección de Datos Personales del Ministerio de Justicia y Derechos Humanos (MINJUS).
+          </p>
+        </section>
+
+      </div>
+
+      <!-- CTA Card al pie de página -->
+      <div class="legal-cta-card">
+        <div class="legal-cta-text">
+          <h3 data-i18n="privacy.ctaTitle">¿Deseas revisar los términos de uso y el marco ético profesional?</h3>
+          <p data-i18n="privacy.ctaDesc">Revisa nuestros Términos y Condiciones de Uso del Servicio y los Códigos Éticos ACM/IEEE y CIP.</p>
+        </div>
+        <a href="terminos-y-condiciones.html" class="btn btn-primary" data-i18n="privacy.ctaBtn">
+          <span>Ver Términos y Condiciones</span> <span class="arrow">→</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer" id="contacto">
+    <span class="deco deco-footer" aria-hidden="true"></span>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="brand brand-light">
+          <span class="brand-name">Vigia</span>
+          <span class="brand-tag" data-i18n="brand.tag">CONSTRUYE<br />CON VISIÓN</span>
+        </div>
+        <p data-i18n="footer.desc">Tecnología para una construcción más eficiente, transparente y segura en todo el Perú.</p>
+        <ul class="socials" data-i18n-aria-label="footer.socialLabel" aria-label="Redes sociales">
+          <li><a href="#" aria-label="LinkedIn">in</a></li>
+          <li><a href="#" aria-label="YouTube">▶</a></li>
+          <li><a href="#" aria-label="Email">✉</a></li>
+        </ul>
+        <p class="strip-line"><span class="strip-dash"></span> <span data-i18n="strip.allPeru">EN TODO EL PERÚ</span></p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.product">Producto</h4>
+        <ul><li><a href="index.html#como-funciona" data-i18n="nav.how">Cómo funciona</a></li><li><a href="index.html#beneficios" data-i18n="nav.benefits">Beneficios</a></li><li><a href="index.html#planes" data-i18n="nav.plans">Planes</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.company">Empresa</h4>
+        <ul><li><a href="index.html#equipo" data-i18n="nav.team">Equipo</a></li><li><a href="index.html#contacto" data-i18n="nav.contact">Contacto</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.support">Soporte</h4>
+        <ul><li><a href="#" data-i18n="footer.faq">Preguntas frecuentes</a></li><li><a href="#" data-i18n="footer.help">Ayuda</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.legal">Legal</h4>
+        <ul><li><a href="terminos-y-condiciones.html" data-i18n="footer.terms">Términos y condiciones</a></li><li><a href="politica-de-privacidad.html" data-i18n="footer.privacy">Política de privacidad</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactUs">Contáctanos</h4>
+        <ul class="contact-list">
+          <li>📍 Lima, Perú</li>
+          <li>✉ contacto@vigia.pe</li>
+          <li>📞 +51 999 123 456</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span data-i18n="footer.rights">© 2026 Vigía. Todos los derechos reservados.</span>
+        <span class="right"><span class="strip-dash"></span> <span data-i18n="strip.trust">TRANSPARENCIA QUE CONSTRUYE CONFIANZA</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
