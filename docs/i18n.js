@@ -73,7 +73,7 @@ window.VIGIA_I18N = {
 
     'problem.eyebrow': 'THE PROBLEM WE SOLVE',
     'problem.title': 'Sites with more control, <span class="accent">fewer surprises</span>',
-    'problem.desc': 'Without traceability and real-time control, it is common to lose sight of materials, face differences in deliveries and detect problems too late. Vigía solves these challenges, designed for construction operations in Peru.',
+    'problem.desc': 'Information about a single dispatch is often spread across documents, calls and messages. Vigía centralizes warehouse, transport and reception records to maintain material traceability and make discrepancies easier to identify.',
     'problem.sideTag': 'MATERIALS UNDER CONTROL<br />SITES THAT MOVE FORWARD',
     'problem.card1Title': 'Lack of materials traceability',
     'problem.card1Desc': 'It is hard to know where materials are and whether they will reach the site on time.',
@@ -166,16 +166,23 @@ window.VIGIA_I18N = {
     'team.strip2': '⚙️ <b>Technology with purpose</b>',
     'team.strip3': '📊 <b>A more efficient Peru</b>',
 
+    'cta.eyebrow': 'START TODAY',
+    'cta.title': 'Take control of your materials <span class="accent">to the next level</span>',
+    'cta.desc': 'Bring dispatches, transport and receptions together on a single platform and detect shortages and delays in time.',
+    'cta.primary': 'Go to the platform <span class="arrow">→</span>',
+    'cta.secondary': 'See plans',
+
+    'legal.back': '← Back to home',
+    'legal.termsTitle': 'Terms and conditions | Vigía',
+    'legal.privacyTitle': 'Privacy and security policy | Vigía',
+
     'footer.desc': 'Technology for more efficient, transparent and safe construction all across Peru.',
     'footer.socialLabel': 'Social networks',
     'footer.product': 'Product',
     'footer.company': 'Company',
-    'footer.support': 'Support',
-    'footer.faq': 'FAQ',
-    'footer.help': 'Help',
     'footer.legal': 'Legal',
     'footer.terms': 'Terms and conditions',
-    'footer.privacy': 'Privacy policy',
+    'footer.privacy': 'Privacy and security policy',
     'footer.contactUs': 'Contact us',
     'footer.rights': '© 2026 Vigía. All rights reserved.'
   },
