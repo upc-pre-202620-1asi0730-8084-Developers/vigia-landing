@@ -4,7 +4,7 @@
    so this file only needs the English texts. Values may contain
    simple trusted markup (<br>, <span>, <b>, <small>) from this file.
    ========================================================= */
- 
+
 window.VIGIA_I18N = {
   en: {
     'meta.title': 'Vigía | Construction materials traceability',
@@ -172,18 +172,19 @@ window.VIGIA_I18N = {
     'cta.primary': 'Go to the platform <span class="arrow">→</span>',
     'cta.secondary': 'See plans',
 
-    'legal.back': '← Back to home',
-    'legal.termsTitle': 'Terms and conditions | Vigía',
-    'legal.privacyTitle': 'Privacy and security policy | Vigía',
-
     'footer.desc': 'Technology for more efficient, transparent and safe construction all across Peru.',
     'footer.socialLabel': 'Social networks',
     'footer.product': 'Product',
     'footer.company': 'Company',
+    'footer.support': 'Support',
+    'footer.faq': 'FAQ',
+    'footer.help': 'Help',
     'footer.legal': 'Legal',
     'footer.terms': 'Terms and conditions',
     'footer.privacy': 'Privacy and security policy',
     'footer.contactUs': 'Contact us',
+    'footer.location': '📍 Lima, Peru',
+    'legal.breadcrumbLabel': 'Breadcrumb',
     'footer.rights': '© 2026 Vigía. All rights reserved.',
     /* --- Legal: Terms & Conditions --- */
     'terms.metaTitle': 'Terms and Conditions | Vigía',
@@ -199,6 +200,7 @@ window.VIGIA_I18N = {
     'terms.updated': '📅 Last updated: October 27, 2026',
     'terms.jurisdiction': '📍 Lima, Republic of Peru',
     'terms.tocTitle': 'Document Index',
+    'terms.tocLabel': 'Section index',
     'terms.nav1': 'Purpose & Scope',
     'terms.nav2': 'Ethical Framework ACM/IEEE & CIP',
     'terms.nav3': 'Accounts & RBAC Roles',
@@ -282,6 +284,7 @@ window.VIGIA_I18N = {
     'privacy.headerSubtitle': 'Strict compliance with Peruvian Law No. 29733 on Personal Data Protection and industrial cybersecurity directives.',
     'privacy.updated': '📅 Last updated: October 27, 2026',
     'privacy.jurisdiction': '📍 Lima, Republic of Peru',
+    'privacy.tocLabel': 'Privacy section index',
     'privacy.nav1': 'Regulatory Framework',
     'privacy.nav2': 'Collected Data',
     'privacy.nav3': 'Processing Purpose',
@@ -335,13 +338,13 @@ window.VIGIA_I18N = {
     'privacy.arcoOTitle': 'Opposition',
     'privacy.arcoODesc': 'Object to the processing of personal data for legitimate and grounded reasons pertaining to a specific situation.',
     'privacy.procTitle': 'Formal ARCO Procedure and Contact Channel:',
-    'privacy.procDesc': 'To exercise any rights, send a written request to Trazza Labs' Privacy Officer at: privacidad@vigia.pe attaching a copy of your ID document.',
+    'privacy.procDesc': 'To exercise any rights, send a written request to Trazza Labs’ Privacy Officer at: <strong>privacidad@vigia.pe</strong> attaching a copy of your ID document.',
     'privacy.procTime': 'Statutory response times: Access requests answered in max 20 business days; rectification, cancellation or opposition in 10 business days per Supreme Decree 003-2013-JUS.',
     'privacy.s6Title': 'Data Retention Period',
     'privacy.s6p1': 'Personal data will be kept for the duration of the contractual or employment relationship justifying platform use and during project execution.',
     'privacy.s6p2': 'Subsequently, audit records, dispatches and delivery logs are kept securely locked during statutory limitation periods for SUNAT tax reviews (5 years) and Peruvian Civil Code contractor liability (10 years for structural defects). Afterwards, data is securely erased or irreversibly anonymized.',
     'privacy.s7Title': 'Contact Channels and Competent Authority',
-    'privacy.s7p1': 'For inquiries, complaints or suggestions regarding this policy, contact privacidad@vigia.pe or visit Trazza Labs corporate headquarters in Lima, Peru.',
+    'privacy.s7p1': 'For inquiries, complaints or suggestions regarding this policy, contact <strong>privacidad@vigia.pe</strong> or visit Trazza Labs corporate headquarters in Lima, Peru.',
     'privacy.s7p2': 'If you consider your data protection rights inadequately addressed, you may file a complaint with the National Authority for Personal Data Protection (ANPDP) under MINJUS.',
     'privacy.ctaTitle': 'Do you want to review the terms of service and ethical framework?',
     'privacy.ctaDesc': 'Review our Terms and Conditions of Service and the ACM/IEEE & CIP Codes of Ethics.',
