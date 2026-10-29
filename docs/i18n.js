@@ -17,6 +17,7 @@ window.VIGIA_I18N = {
     'header.signIn': 'Sign in',
     'header.openMenu': 'Open menu',
     'header.closeMenu': 'Close menu',
+    'header.backToTop': 'Back to top',
 
     'nav.home': 'Home',
     'nav.how': 'How it works',
@@ -353,6 +354,7 @@ window.VIGIA_I18N = {
   },
   es: {
     // Texts that only appear from script (not written in index.html).
-    'header.closeMenu': 'Cerrar menú'
+    'header.closeMenu': 'Cerrar menú',
+    'header.backToTop': 'Volver al inicio'
   }
 };
